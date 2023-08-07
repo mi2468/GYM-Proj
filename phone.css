@@ -1,0 +1,1388 @@
+@media(max-width: 1100px){
+    .header-area {
+        height: 191%;
+    }
+
+    /* .sec-1 .section-img {
+        margin-top: 30px;
+    } */
+
+    .sec-1 .section-img img{
+        width: 500px;
+    }
+
+    .sec-text h1 {
+        font-size: 30px;
+        margin-bottom: 19px;
+    }
+
+    .sec-text h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .sec-text p {
+        font-size: 1rem;
+        line-height: 22px;
+    }
+
+    .about-us {
+        margin-top: 20px;
+    }
+
+    .first i, .second i {
+        font-size: 4.5rem;
+    }
+
+    .first h3, .second h3 {
+        margin-bottom: 6px;
+    }
+
+    .first p, .second p {
+        padding-bottom: 23px;
+    }
+
+    .about-btn {
+        width: 35%;
+    }
+
+    .sec-2 h1 {
+        margin-bottom: 40px;
+    }
+
+    .features {
+        margin: 0 60px;
+    }
+
+    .row-img img {
+        width: 196px;
+        height: 140px;
+    }
+
+}
+
+@media(max-width: 1050px){
+    .header-area {
+        height: 160%;
+    }
+
+    .header-cont .btn {
+        width: 20%;
+    }
+
+    /* .sec-1 .section-img {
+        margin-top: 30px;
+    } */
+
+    .sec-1 .section-img img{
+        width: 450px;
+    }
+
+    .sec-text h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .sec-text h2 {
+        font-size: 27px;
+        margin-bottom: 7px;
+    }
+
+    .first i, .second i {
+        font-size: 4.2rem;
+    }
+
+    .about-btn {
+        width: 33%;
+    }
+
+    .sec-2 h3 {
+        font-size: 22px;
+    }
+
+    .sec-2 h1 {
+        font-size: 45px;
+        margin-bottom: 35px;
+    }
+
+    .features {
+        margin: 0 30px;
+    }
+
+    .row-img img {
+        width: 180px;
+        height: 126px;
+    }
+
+    .card-container .card {
+        margin: 20px;
+    }
+
+}
+@media(max-width: 1000px){
+    .sec-1 .section-img {
+        margin: 60px 35px;
+    }
+
+    .sec-2 h3 {
+        font-size: 22px;
+        margin-bottom: 7px;
+    }
+
+    .sec-2 h1 {
+        font-size: 42px;
+    }
+
+    .row {
+        padding: 30px 11px;
+    }
+
+    .box h1 {
+        font-size: 30px;
+    }
+
+    .box p {
+        font-size: 16.4px;
+    }
+
+    .box a {
+        font-size: 25px;
+    }
+
+    .card-cont {
+        padding: 150px 30px;
+    }
+
+    .card-cont h2 {
+        font-size: 37px;
+    }
+
+    .footer-col h2 {
+        font-size: 1.5rem;
+    }
+
+    .copyright p {
+        font-size: 1.4rem;
+    }
+
+}
+@media(max-width: 950px){
+    .sec-1 {
+        flex-direction: column;
+    }
+
+    .sec-1 .section-img img {
+        width: 610px;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 70px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .hamburger ul li {
+        display: block;
+        margin-top: 1.5rem;
+    }
+
+    .hamburger ul li a {
+        font-size: 1.1rem;
+        color: #fff;
+    }
+
+    .hamburger ul li a.active   {
+        color: crimson;
+    }
+
+    .hamburger ul li a:not(.active) {
+        font-weight: 600;
+    }
+
+    .hamburger ul li a:hover:not(.active)  {
+        color: crimson;
+    }
+
+    #check:checked ~ .hamburger {
+        left: 0;
+    }
+
+    .sec-text {
+        margin-left: 165px;
+        margin-right: 100px;
+        margin-top: -30px; 
+    }
+
+    .sec-text h3 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .sec-text h1 {
+        font-size: 30px;
+    }
+
+    .sec-text h2 {
+        font-size: 29px;
+    }
+
+    .about-btn {
+        width: 23%;
+    }
+
+    .sec-2 {
+        margin-top: 50px;
+    }
+
+    .features {
+        margin: 0 80px;
+    }
+
+    .row {
+        padding: 30px 11px;
+    }
+
+    .row-img img {
+        width: 160px;
+        height: 115px;
+    }
+
+    .row-text h3 {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+
+    .box h1 {
+        font-size: 28px;
+    }
+
+    .card-cont h2 {
+        font-size: 34px;
+    }
+
+    .footer-col h2 {
+        font-size: 1.4rem;
+    }
+
+    .footer-col .social-media {
+        margin: 22px 0;
+    }
+
+    .footer-col i {
+        font-size: 1.3rem;
+    }
+
+}
+@media(max-width: 900px){
+    .sec-text {
+        margin-left: 145px;
+        margin-right: 82px;
+        margin-top: -30px; 
+    }
+
+    .about-btn {
+        width: 23%;
+    }
+
+    .header-cont .btn {
+        width: 23%;
+    }
+
+    .row-text h3 {
+        font-size: 17px;
+        font-weight: 900;
+    }
+
+    .box h1 {
+        font-size: 25px;
+    }
+
+    .card-cont h2 {
+        font-size: 31px;
+    }
+
+    .copyright p {
+        font-size: 1.3rem;
+    }
+
+}
+@media(max-width: 850px){
+    .header-cont h3 {
+        font-size: 1.5rem;
+    }
+
+    .header-area {
+        height: 150%;
+    }
+
+    .hamburger {
+        top: 55px;
+    }
+
+    .sec-text {
+        margin-left: 119px;
+        margin-right: 58px;
+        margin-top: -30px; 
+    }
+
+    .sec-2 h3 {
+        font-size: 21px;
+    }
+
+    .sec-2 h1 {
+        font-size: 40px;
+    }
+
+    .about-btn {
+        width: 23%;
+    }
+
+    .header-cont .btn {
+        width: 23%;
+    }
+
+    .row-img img {
+        width: 150px;
+    }
+
+    .row-text h3 {
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+    .box h1 {
+        font-size: 23px;
+    }
+
+    .card-cont h2 {
+        font-size: 28px;
+    }
+
+    .footer-col h2 {
+        font-size: 1.3rem;
+    }
+
+}
+@media(max-width: 800px){
+    .navbar {
+        height: 30vh;
+    }
+
+    .hamburger {
+        top: 80px;
+    }
+
+    .header-area {
+        height: 180%;
+    }
+
+    .sec-text {
+        margin-left: 95px;
+        margin-right: 32px;
+        margin-top: -30px; 
+    }
+
+    .sec-text p {
+        font-size: 1.1rem;
+    }
+
+    .first i, .second i {
+        font-size: 4rem;
+    }
+
+    .header-cont .btn {
+        width: 25%;
+    }
+
+    .features {
+        margin: 0 65px;
+    }
+
+    .row-img img {
+        width: 140px;
+    }
+
+    .box h1 {
+        font-size: 21px;
+    }
+
+    .card-container .card img {
+        width: 300px;
+    }
+
+    .card-cont h2 {
+        font-size: 25px;
+    }
+
+    .footer-col h2 {
+        font-size: 1.3rem;
+    }
+
+    .footer-col .social-media {
+        margin: 23px 0;
+    }
+
+    .footer-col i {
+        font-size: 1.2rem;
+    }
+
+    .copyright p {
+        font-size: 1.2rem;
+    }
+
+}
+@media(max-width: 750px){
+    .sec-1 .section-img img {
+        width: 500px;
+    }
+
+    .sec-text {
+        margin-left: 122px;
+        margin-right: 84px;
+        margin-top: -30px; 
+    }
+
+    .first {
+        margin-right: 47px;
+    }
+
+    .second {
+        margin-right: 7px;
+    }
+
+    .about-btn {
+        width: 28%;
+    }
+
+    .header-cont .btn {
+        width: 23%;
+        font-size: 1.4rem;
+    }
+
+    .features {
+        flex-direction: column;
+        margin: 0 116px;
+    }
+
+    .row {
+        width: 100%;
+        padding: 40px;
+    }
+
+    .row-img img {
+        width: 181px;
+        height: 130px;
+    }
+
+    .row-text h3 {
+        font-size: 21px;
+    }
+
+    .row-text p {
+        line-height: 1.6;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .sec-3 .box {
+        width: 287px;
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+    }
+
+    .card-cont h2 {
+        font-size: 35px;
+    }
+
+    .footer-col {
+        flex-wrap: wrap;
+    }
+
+    .footer-col h2 {
+        font-size: 1.3rem;
+    }
+
+    .footer-col .social-media {
+        margin: 23px 0;
+    }
+
+    .footer-col i {
+        font-size: 1.2rem;
+    }
+
+    .copyright {
+        width: 54%;
+        /* margin-right: 0; */
+        margin-left: 24%;
+        /* padding-bottom: 10px; */
+    }
+
+    .copyright p {
+        font-size: 1.3rem;
+    }
+
+}
+@media(max-width: 700px){
+    .navbar {
+        height: 17vh;
+    }
+
+    .hamburger {
+        top: 89px;
+    }
+
+    .header-area {
+        height: 100%;
+    }
+
+    .header-cont {
+        margin-top: 15%;
+    }
+
+    .header-cont h3 {
+        font-size: 1.3rem;
+    }
+
+    .sec-text {
+        margin-left: 99px;
+        margin-right: 85px;
+        margin-top: -30px; 
+    }
+
+    .features {
+        flex-direction: column;
+        margin: 0 85px;
+    }
+
+    .row-img img {
+        width: 200px;
+        height: 140px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+    }
+
+    .card-container .card img {
+        width: 280px;
+    }
+
+    .card-cont {
+        padding-top: 115px;
+    }
+
+}
+@media(max-width: 650px){
+    .header-area {
+        height: 107%;
+    }
+
+    .header-cont {
+        margin-top: 15%;
+    }
+
+    .header-cont h1 {
+        width: 66%;
+        text-align: center;
+    }
+
+    .header-cont .btn {
+        width: 25%;
+        font-size: 1.3rem;
+    }
+
+    .sec-1 .section-img img {
+        width: 515px;
+    }
+
+    .sec-text {
+        margin-left: 67px;
+        margin-right: 67px;
+        margin-top: -30px; 
+    }
+
+    .sec-text p {
+        font-size: 1rem;
+    }
+
+    .sec-2 h3 {
+        font-size: 20px;
+    }
+
+    .first i, .second i {
+        font-size: 3.5rem;
+    }
+
+    .features {
+        flex-direction: column;
+        margin: 0 65px;
+    }
+
+    .sec-3 .box {
+        width: 444px;
+    }
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+    }
+
+    .card-container .card img {
+        width: 444px;
+    }
+
+    .card-cont {
+        padding-top: 200px;
+    }
+
+    .card-cont h2 {
+        font-size: 48px;
+    } 
+
+    .footer-col {
+        flex-direction: column;
+    }
+
+    .footer-col  .contact, .quick-link, .popular-link {
+        margin-bottom: 2rem;
+        margin-left: 1rem;
+    }
+
+    .social-media i {
+        padding: 8px;
+    }
+
+    .copyright  {
+        width: 55%;
+    }
+
+}
+@media(max-width: 600px){
+    .header-area {
+        height: 100%;
+    }
+
+    .header-cont h1 {
+        width: 71%;
+        text-align: center;
+        font-size: 3.4rem;
+    }
+
+    .header-cont .btn {
+        width: 25%;
+        font-size: 1.3rem;
+        margin-top: 2.8%;
+    }
+
+    .sec-text {
+        margin-left: 41px;
+        margin-right: 55px;
+        margin-top: -30px; 
+    }
+
+    .about-btn {
+        width: 30%;
+    }
+
+    .sec-2 {
+        margin-top: 70px;
+    }
+
+    .sec-2 h3 {
+        font-size: 19px;
+    }
+
+    .sec-2 h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .features {
+        flex-direction: column;
+        margin: 0 49px;
+    }
+
+    .sec-3 h1 {
+        font-size: 41px;
+    }
+
+    .box img {
+        width: 35%;
+    }
+
+    .box h1 {
+        font-size: 28px;
+    }
+
+    .sec-4 .train {
+        font-size: 38px;
+    }
+
+    .copyright  {
+        /* width: 55%; */
+        width: 79%;
+        margin-left: 11%;
+        /* margin-right: 10%; */
+    }
+
+    .copyright p {
+        font-size: 1.3rem;
+    }
+
+}
+@media(max-width: 550px){
+    .navbar {
+        padding: 0 16px;
+    }
+
+    .checkbtn {
+        margin-right: 7px;
+    }
+    
+    .header-area {
+        height: 94%;
+    }
+
+    .header-cont h1 {
+        width: 75%;
+        text-align: center;
+        font-size: 3.3rem;
+    }
+
+    .header-cont .btn {
+        width: 28%;
+        font-size: 1.3rem;
+        margin-top: 2.8%;
+    }
+
+    .sec-text {
+        margin-left: 20px;
+        margin-right: 37px;
+        margin-top: -30px; 
+    }
+
+    .about-us {
+        flex-direction: column;
+    }
+
+    .about-btn {
+        width: 30%;
+    }
+
+    .first p, .second p {
+        width: 90%;
+    }
+
+    .features {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .features .row {
+        flex-direction: column;
+    }
+
+    .row-img img {
+        width: 500px;
+        height: 350px;
+    }
+
+    .row .row-text {
+        margin-left: -15px;
+        margin-top: 16px;
+    }
+
+    .sec-2 {
+        margin-bottom: 12px;
+    }
+
+    .contact-list {
+        width: 118%;
+    }
+
+    .social-media {
+        width: 103%;
+    }
+
+    .copyright  {
+        /* width: 55%; */
+        width: 89%;
+        margin-left: 5%;
+        /* margin-right: 10%; */
+    }
+
+    .copyright p {
+        font-size: 1.3rem;
+    }
+
+}
+@media(max-width: 500px){
+    .navbar {
+        height: 15vh;
+    }
+
+    .logo h1  {
+        font-size: 2.3rem;
+    }
+
+    .hamburger {
+        top: 78px;
+    }
+
+    .checkbtn {
+        margin-right: 7px;
+    }
+    
+    .header-area {
+        height: 86%;
+    }
+
+    .header-cont h1 {
+        width: 75%;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .header-cont h3 {
+        font-size: 1.2rem;
+    }
+
+    .header-cont .btn {
+        width: 30%;
+        font-size: 1.3rem;
+        margin-top: 2.8%;
+    }
+
+    .sec-1 .section-img img {
+        width: 470px;
+    }
+
+    .sec-text {
+        margin-left: 16px;
+        margin-right: 37px;
+        margin-top: -30px; 
+    }
+
+    .sec-text p {
+        font-size: 1.1rem;
+    }
+
+    .first i, .second i {
+        font-size: 3.2rem;
+    }
+
+    .first h3, .second h3 {
+        font-size: 20px;
+    }
+
+    .about-btn {
+        width: 33%;
+    }
+
+    .first p, .second p {
+        width: 90%;
+    }
+
+    .sec-2 h1 {
+        font-size: 31px;
+    }
+
+    .row-img img {
+        width: 465px;
+        height: 350px;
+    }
+
+    .row .row-text {
+        margin-left: -21px;
+        margin-top: 16px;
+    }
+
+    .sec-2 {
+        margin-bottom: 12px;
+    }
+
+    .sec-3 h1 {
+        font-size: 35px;
+    }
+
+    .box h1 {
+        font-size: 27px;
+    }
+
+    .sec-4 .train {
+        font-size: 31px;
+    }
+
+    .card-container .card {
+        width: 512px;
+    }
+
+    .social-media {
+        width: 110%;
+    }
+
+    .social-media i {
+        font-size: 1.1rem;
+    }
+
+    .copyright  {
+        /* width: 55%; */
+        width: 89%;
+        margin-left: 5%;
+        /* margin-right: 10%; */
+    }
+
+    .copyright p {
+        font-size: 1.3rem;
+    }
+
+}
+@media(max-width: 450px){
+    .logo h1  {
+        font-size: 2.2rem;
+    }
+    
+    .header-area {
+        height: 77%;
+    }
+
+    .header-cont {
+        margin-top: 12%;
+    }
+
+    .header-cont h1 {
+        width: 82%;
+        text-align: center;
+        font-size: 2.8rem;
+    }
+
+    .header-cont h3 {
+        font-size: 1.2rem;
+    }
+
+    .header-cont .btn {
+        width: 33%;
+        font-size: 1.3rem;
+        margin-top: 2.8%;
+    }
+
+    .sec-1 .section-img img {
+        width: 417px;
+    }
+
+    .sec-text {
+        margin-left: 18px;
+        margin-right: 37px;
+        margin-top: -30px; 
+    }
+
+    .sec-text h1 {
+        font-size: 28px;
+    }
+
+    .sec-text h2 {
+        font-size: 26px;
+    }
+
+    .about-btn {
+        width: 37%;
+    }
+
+    .sec-2 h1 {
+        font-size: 29px;
+    }
+
+    .row-img img {
+        width: 418px;
+        height: 305px;
+    }
+
+    .row .row-text {
+        margin-left: -23px;
+        margin-top: 16px;
+    }
+
+    .sec-2 {
+        margin-bottom: 12px;
+    }
+
+    .sec-3 h1 {
+        font-size: 32px;
+    }
+
+    .sec-4 .train {
+        font-size: 28px;
+    }
+
+    .card-container .card {
+        width: 712px;
+    }
+    .card-container .card img {
+        width: 350px;
+    }
+
+    .footer-col h2 {
+        font-size: 1.2rem;
+    }
+
+    .contact-list {
+        width: 131%;
+    }
+
+    .social-media {
+        width: 125%;
+    }
+
+    .social-media i {
+        font-size: 1.1rem;
+    }
+
+}
+@media(max-width: 400px){
+    .logo h1  {
+        font-size: 2rem;
+    }
+    
+    .header-area {
+        height: 70%;
+    }
+
+    .header-cont h1 {
+        width: 86%;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .header-cont .btn {
+        width: 38%;
+        font-size: 1.3rem;
+        margin-top: 2.8%;
+    }
+
+    .sec-1 .section-img img {
+        width: 370px;
+    }
+
+    .sec-text {
+        margin-left: 15px;
+        margin-right: 21px;
+        margin-top: -30px; 
+    }
+
+    .sec-text h1 {
+        font-size: 24px;
+    }
+
+    .sec-text h2 {
+        font-size: 23px;
+    }
+
+    .about-btn {
+        width: 42%;
+    }
+
+    .sec-2 h1 {
+        font-size: 27px;
+    }
+
+    .row-img img {
+        width: 367px;
+        height: 270px;
+    }
+
+    .sec-3 h1 {
+        font-size: 30px;
+    }
+
+    .sec-4 .train {
+        font-size: 26px;
+    }
+
+    .card-cont {
+        padding-top: 150px;
+    }
+
+    .card-cont h2 {
+        font-size: 42px;
+    }
+
+    .contact-list {
+        width: 148%;
+    }
+
+    .social-media {
+        width: 136%;
+    }
+
+    .copyright p {
+        font-size: 1.2rem;
+    }
+
+}
+@media(max-width: 350px){
+    .header-area {
+        height: 65%;
+        width: 106%;
+    }
+
+    .header-cont h1 {
+        width: 88%;
+        text-align: center;
+        font-size: 2.3rem;
+    }
+
+    .header-cont .btn {
+        width: 43%;
+        font-size: 1.3rem;
+        margin-top: 2.8%;
+    }
+
+    .sec-1 .section-img img {
+        width: 319px;
+    }
+
+    .sec-text {
+        margin-left: 17px;
+        margin-right: 21px;
+        margin-top: -30px; 
+    }
+
+    .sec-text h1 {
+        font-size: 22px;
+    }
+
+    .sec-text h2 {
+        font-size: 21px;
+    }
+
+    .first i, .second i {
+        font-size: 3rem;
+    }
+
+    .first h3, .second h3 {
+        font-size: 19px;
+    }
+
+    .about-btn {
+        width: 48%;
+        font-size: 22px;
+    }
+
+    .sec-2 h1 {
+        font-size: 29px;
+    }
+
+    .row-img img {
+        width: 321px;
+        height: 257px;
+    }
+
+    .sec-4 .train {
+        font-size: 24px;
+    }
+
+    .card-container .card img {
+        width: 268px;
+    }
+
+    .card-cont {
+        padding-top: 104px;
+    }
+
+    .card-cont h2 {
+        font-size: 33px;
+    }
+
+    .footer-col h2 {
+        font-size: 1.1rem;
+        font-weight: bolder;
+    }
+
+    .contact-list {
+        width: 157%;
+    }
+
+    .contact-list span {
+        font-size: 1.1rem;
+    }
+
+    .social-media {
+        width: 156%;
+    }
+
+    .footer-col ul li a {
+        font-size: 1.1rem;
+    }
+
+    .copyright p {
+        font-size: 1.1rem;
+    }
+
+}
+@media(max-width: 300px){
+    .logo h1 {
+        font-size: 1.8rem;
+    }
+
+    .navbar {
+        height: 13vh;
+    }
+
+    .hamburger {
+        top: 67px;
+    }
+
+    .header-cont {
+        margin-top: 6%;
+    }
+
+    .header-area {
+        height: 54%;
+        width: 107%;
+    }
+
+    .header-cont h1 {
+        width: 90%;
+        text-align: center;
+        font-size: 2.2rem;
+    }
+
+    .header-cont h3 {
+        font-size: 1.1rem;
+    }
+
+    .header-cont .btn {
+        width: 47%;
+        font-size: 1.3rem;
+        margin-top: 2.8%;
+    }
+
+    .sec-1 .section-img img {
+        width: 270px;
+    }
+
+    .sec-text {
+        margin-left: 14px;
+        margin-right: 21px;
+        margin-top: -30px; 
+    }
+
+    .sec-text h3 {
+        font-size: 17px;
+    }
+
+    .sec-text h1 {
+        font-size: 18px;
+        font-weight: bolder;
+    }
+
+    .sec-text h2 {
+        font-size: 19px;
+    }
+
+    .sec-text p {
+        line-height: 23px;
+    }
+
+    .first i, .second i {
+        font-size: 2.6rem;
+    }
+
+    .first h3, .second h3 {
+        font-size: 19px;
+    }
+
+    .about-btn {
+        width: 61%;
+        font-size: 22px;
+    }
+
+    .sec-2 h1 {
+        font-size: 26px;
+    }
+
+    .row-img img {
+        width: 264px;
+        height: 228px;
+    }
+
+    .box h1 {
+        font-size: 25px;
+    }
+
+    .box p {
+        font-size: 13.5px;
+    }
+
+    .sec-4 .train {
+        font-size: 22px;
+    }
+
+    .card-container .card {
+        margin: 20px 0;
+    }
+
+    .card-cont {
+        padding-top: 104px;
+    }
+
+    .card-cont h2 {
+        font-size: 31px;
+    }
+
+    .main-footer {
+        width: 104%;
+    }
+
+    .footer-col h2 {
+        font-size: 1.1rem;
+        font-weight: bolder;
+        width: 116%;
+    }
+
+    .contact-list {
+        width: 176%;
+    }
+
+    .contact-list span {
+        font-size: 1rem;
+    }
+
+    .social-media {
+        width: 175%;
+    }
+
+    .footer-col .contact-list {
+        margin-bottom: 15px;
+    }
+
+    .footer-col ul li a {
+        font-size: 1rem;
+    }
+
+}
